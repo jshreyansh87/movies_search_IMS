@@ -1,0 +1,81 @@
+.header-container{
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+}
+.movie-name{
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  top: 0px;
+  text-align: center;
+  line-height: 750px;
+  color: white;
+  font-size: 400%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.info-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.synopsis-container{
+  display: grid;
+  padding-left: 40px;
+  padding-right: 40px;
+  grid-template-columns: auto auto auto;
+}
+
+.casts_director-container{
+  display: grid;
+  margin-left: 70px;
+  grid-template-columns: auto auto auto;
+}
+
+.Songs-container{
+  display: grid;
+  margin-left: 60px;
+  grid-template-columns: auto auto auto;
+}
+
+#info-btn{
+  margin: 0;
+  padding: 3px;
+  padding-left: 11px;
+  padding-right: 11px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#casts_director-btn{
+  margin: 0;
+  padding: 3px;
+  padding-left: 11px;
+  padding-right: 11px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#synopsis-btn{
+  margin: 0;
+  padding: 3px;
+  padding-left: 11px;
+  padding-right: 11px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#songs-btn{
+  margin: 0;
+  padding: 3px;
+  padding-left: 11px;
+  padding-right: 11px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.selector-btn{
+  margin-bottom: 1%;
+}
+.content-container{
+  font-family: 'Ubuntu', sans-serif;
+  background-image: linear-gradient(to bottom, rgba(255, 123, 125, 0.8), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0));
+}
